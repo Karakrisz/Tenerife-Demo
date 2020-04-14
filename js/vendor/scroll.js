@@ -1,4 +1,4 @@
-$(function () {
+(function () {
     const mq = window.matchMedia("(min-width: 1200px)");
     var SCROLL_TIME = 1000;
 

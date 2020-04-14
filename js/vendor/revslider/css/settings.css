@@ -2762,4 +2762,12 @@ body {
 	margin-bottom: 20px;
 }
 
+.sc_button_content {
+	margin-bottom: 50px;
+}
+
+#sc_columns__secondDiv-section {
+	display: none;
+}
+
 /* KaraKrisz css end  */

@@ -21,5 +21,6 @@ $(document).ready(function () {
 			scrollTop: oft - 40
 		});
 		return false;
+
 	});
 });

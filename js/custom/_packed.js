@@ -11,7 +11,7 @@
 9. menu.min.js
 10. position.min.js
 11. jquery.magnific-popup.min.js
-12. jquery.autosize.js
+12. jquery.autosize.jss
 13. jquery.isotope.min.js
 14. jquery.formstyler.js
 15. mouse.min.js

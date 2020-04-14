@@ -684,7 +684,7 @@ function main_slider_init() {
 function isotope_filtr_inited() {
 	"use strict";
 	if (jQuery(".isotopeFiltr").length > 0) {
-		jQuery(".isotopeFiltr").append("<ul><li class=\"squareButton active\"><a href=\"#\" data-filter=\"*\">All</a></li><li class=\"squareButton\"><a href=\"#\" data-filter=\".flt_64\">Living room</a></li><li class=\"squareButton\"><a href=\"#\" data-filter=\".flt_65\">Driveway</a></li><li class=\"squareButton\"><a href=\"#\" data-filter=\".flt_46\">Basement</a></li><li class=\"squareButton\"><a href=\"#\" data-filter=\".flt_11\">Bedroom</a></li><li class=\"squareButton\"><a href=\"#\" data-filter=\".flt_8\">Garage</a></li><li class=\"squareButton\"><a href=\"#\" data-filter=\".flt_10\">Kitchen</a></li></ul>");
+		jQuery(".isotopeFiltr").append("<ul><li class=\"squareButton active\"><a href=\"#\" data-filter=\"*\">All</a></li><li class=\"squareButton\"><a href=\"#\" data-filter=\".flt_64\">Living room</a></li><li class=\"squareButton\"><a href=\"#\" data-filter=\".flt_11\">Bedroom</a></li><li class=\"squareButton\"><a href=\"#\" data-filter=\".flt_10\">Kitchen</a></li><li class=\"squareButton\"><a href=\"#\" data-filter=\".flt_8\">Terrace</a></li></ul>");
 	}
 }
 
