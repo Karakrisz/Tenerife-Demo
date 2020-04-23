@@ -2752,9 +2752,17 @@ body {
 	border: 2px solid #98bd15;
 }
 
+@media (min-width: 1200px) {
+
+	.infoTopWrap {
+		position: relative;
+		top: 2em;
+	}
+}
+
 .sc_section p {
 	color: black;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 	font-size: 17px;
 }
 
@@ -2768,6 +2776,177 @@ body {
 
 #sc_columns__secondDiv-section {
 	display: none;
+}
+
+.with_text {
+	position: relative;
+	top: 3em;
+}
+
+#photoconteneur,
+.photo {
+	width: 800px;
+	height: 600px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#photoconteneur {
+	position: relative;
+}
+
+.photo {
+	position: absolute;
+	top: 0;
+	left: -800px;
+	/*on décale*/
+	bottom: 0;
+	right: 0;
+}
+
+#photo1 {
+	background: url(http://www.wallfizz.com/nature/plage/4283-transat-palmier-WallFizz.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+
+#photo2 {
+	background: url(http://www.wallfizz.com/nature/plage/4325-vacances-plage-paradisiaque-WallFizz.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+
+#photo3 {
+	background: url(http://www.wallfizz.com/nature/plage/3440-plage-palmier-WallFizz.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+
+#photo4 {
+	background: url(http://www.wallfizz.com/nature/plage/4324-rocher-et-plage-WallFizz.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+
+/*  */
+@keyframes slide1 {
+	0% {
+		opacity: 100;
+		left: 0;
+	}
+
+	25% {
+		opacity: 0;
+		left: 800px;
+	}
+
+	50% {
+		opacity: 0;
+		left: -800px;
+	}
+
+	75% {
+		opacity: 0;
+		left: -800px;
+	}
+
+	100% {
+		opacity: 100;
+		left: 0;
+	}
+}
+
+@keyframes slide2 {
+	0% {
+		opacity: 0;
+		left: -800px;
+	}
+
+	25% {
+		opacity: 100;
+		left: 0;
+	}
+
+	50% {
+		opacity: 0;
+		left: 800px;
+	}
+
+	75% {
+		opacity: 0;
+		left: -800px;
+	}
+
+	100% {
+		opacity: 0;
+		left: -800px;
+	}
+}
+
+@keyframes slide3 {
+	0% {
+		opacity: 0;
+		left: -800px;
+	}
+
+	25% {
+		opacity: 0;
+		left: -800px;
+	}
+
+	50% {
+		opacity: 100;
+		left: 0;
+	}
+
+	75% {
+		opacity: 0;
+		left: 800px;
+	}
+
+	100% {
+		opacity: 0;
+		left: -800px;
+	}
+}
+
+@keyframes slide4 {
+	0% {
+		opacity: 0;
+		left: -800px;
+	}
+
+	25% {
+		opacity: 0;
+		left: -800px;
+	}
+
+	50% {
+		opacity: 0;
+		left: -800px;
+	}
+
+	75% {
+		opacity: 100;
+		left: 0;
+	}
+
+	100% {
+		opacity: 0;
+		left: 800px;
+	}
+}
+
+#photo1 {
+	animation: slide1 24s infinite;
+}
+
+#photo2 {
+	animation: slide2 24s infinite;
+}
+
+#photo3 {
+	animation: slide3 24s infinite;
+}
+
+#photo4 {
+	animation: slide4 24s infinite;
 }
 
 /* KaraKrisz css end  */
